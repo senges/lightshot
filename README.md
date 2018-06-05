@@ -23,4 +23,4 @@ In the same way :
 `$  ./pull.sh https://prnt.sc/abc123 6`
 
 Could be seend as "https://prnt.sc/******"
-The script would then crawl the whole website (could be long if you don't have a quantum computer btw)  
+The script would then crawl the whole website (could be long if you don't have a quantum computer btw (I know quantum computer wouldn't help but.. come on))  
