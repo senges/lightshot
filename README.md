@@ -4,6 +4,12 @@ This proof of concept shows how lightshot screenshot hosting service can be easi
 This weakness was first discovered by [Naïm GALLOUJ](https://www.naimo.me/).  
 Script Author : Charles SENGES (me, btw).
 
+## Update !
+
+Seems like cloudflare protection has been added since.
+May bypass this later.
+If you have any suggestion, just drop me an email.
+
 ## Usage
 
 ```bash
