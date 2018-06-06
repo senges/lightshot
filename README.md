@@ -10,6 +10,8 @@ Seems like cloudflare protection has been added since.
 May bypass this later.
 If you have any suggestion, just drop me an email.
 
+Monster-Geek : Bash crawler seems to crawl swlowly but without getting banned. Python script got banned pretty fast... 
+
 ## Usage
 
 ```bash
