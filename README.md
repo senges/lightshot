@@ -10,7 +10,7 @@ Seems like cloudflare protection has been added since.
 May bypass this later.
 If you have any suggestion, just drop me an email.
 
-Monster-Geek : Bash crawler seems to crawl swlowly but without getting banned. Python script got banned pretty fast... 
+**Monster-Geek :** Bash crawler seems to crawl swlowly but without getting banned. Python script got banned pretty fast... 
 
 ## Usage
 
@@ -38,3 +38,7 @@ $  ./pull.sh https://prnt.sc/abc123 6
 
 Could be seend as `https://prnt.sc/******`
 The script would then crawl the whole website (could be long if you don't have a quantum computer (I know quantum computer wouldn't help but.. come on))  
+
+## References
+
+* Korben published [an article](https://korben.info/attention-a-ne-pas-uploader-de-trucs-sensibles-sur-prnt-sc-lightshot.html) about this weakness.
