@@ -1,7 +1,7 @@
 # Lightshot Filename Path Disclosure (POC)
 
 This proof of concept shows how lightshot screenshot hosting service can be easily crawled without any restriction.  
-This weakness was first discovered by [Naïm GALLOUJ](https://www.naimo.me/).  
+This weakness was first discovered with [Naïm GALLOUJ](https://www.naimo.me/).  
 Script Author : Charles SENGES (me, btw).
 
 ## Update !
