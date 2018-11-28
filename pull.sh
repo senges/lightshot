@@ -11,11 +11,12 @@ if (($# != 2)); then
 	echo "2 arguments expected"
 	exit 1;
 fi
-
-cuturl=$(echo $url | head -c -$(expr 1 + $row))
+nbcar=$(echo $url | wc -c)
+cuturl=$(echo $url | head -c $(($nbcar - $row - 1)))
 charset=({a..z} {0..9})
 alphabet=""
-
+echo $cuturl
+echo $nbcar
 echo "Downloading "$(echo "36 ^ $row" | bc)" images from $url ..."
 echo ""
 
@@ -30,6 +31,6 @@ permute(){
 permute "$row"
 
 for a in $alphabet;     do
-        wget  $cuturl$a -U "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5" -O tmp.html
-        wget -nv $(cat tmp.html | grep -o '<img class="no-click screenshot-image" [ ]*src="[^"]*"' | cut -d '"' -f 4)
+        tmp=$(wget  $cuturl$a -nv -U "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5" -O-)
+        wget -nv $(echo $tmp | grep -o '<img class="no-click screenshot-image" [ ]*src="[^"]*"' | cut -d '"' -f 4)
 done
