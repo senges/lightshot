@@ -12,6 +12,8 @@ If you have any suggestion, just drop me an email.
 
 **Monster-Geek :** Bash crawler seems to crawl swlowly but without getting banned. Python script got banned pretty fast... 
 
+**Squ3D :** Java Crawler seems to crawl without issue, feel free to pm me if you face any problem using it.
+
 ## Usage
 
 ```bash
