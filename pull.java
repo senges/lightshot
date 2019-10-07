@@ -1,10 +1,10 @@
 	
 	/*
-	 * @author Squ3D aka Naïm
-	 * make sure to include the Jsoup Jar into your project build Path, it should be auto-added.
+	 * @author Squ3D aka NaÃ¯m
+	 * make sure to include Jsoup.Jar in order to run the Script.
 	 *
-	 * If not, using Eclipse
-	 * Right click the Java project, "Build Path", selected add external archive, and upload throw the File manager the Jsoup.jar
+	 * Using Eclipse :
+	 * Right click the Java project -> "Build Path" ->Select add external archive, and upload throw the File manager the Jsoup.jar
 	 * 
 	 */
 
@@ -38,7 +38,7 @@ public class pull {
 
 		            System.out.println("====LighShot dumper tool====");		
 		            System.out.println("Enter the Path where you wish to Save the Screenshots you dump");
-		            System.out.println("Make sure that it's using this Format : C:/Users/Naïm/Desktop/doci/");
+		            System.out.println("Make sure that it's using this Format : C:/Users/NaÃ¯m/Desktop/doci/");
 		            System.out.println("Enter it here :");
 		            String userpass = sc.nextLine();
 		            int imgCount = 0;
