@@ -13,6 +13,7 @@ If you have any suggestion, just drop me an email.
 **Monster-Geek :** Bash crawler seems to crawl swlowly but without getting banned. Python script got banned pretty fast... 
 
 **Squ3D :** Java Crawler seems to crawl without issue, feel free to pm me if you face any problem using it.
+            Update : Added a Py Scrapper.
 
 ## Usage
 
@@ -22,6 +23,11 @@ $  ./pull.sh <url> <number of level>
 
 * URL : Your startig point
 * Levels : How much you want to crawl the url. (See exemples)
+
+```New Python Script
+$ pip3 install -r requeirements.txt
+$ python3 scrappyer.py
+```
 
 ## Exemples
 
