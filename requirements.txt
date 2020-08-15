@@ -1,0 +1,3 @@
+cloudscraper==1.2.40
+beautifulsoup4==4.9.1
+lxml
